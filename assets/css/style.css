@@ -1,0 +1,97 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-family:Poppins, sans-serif;
+    font-size: 1,4rem;
+    line-height: 1.5;
+    padding: 15px;
+    background-image: url('../img/sfondo.png');
+    background-position: center;
+}
+*{box-sizing: border-box;}
+
+/* testa*/
+header {
+  
+  background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68% );
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 4px 4px #444;
+  margin-bottom: 2rem;
+  padding: 2em 1.5em;
+}
+header div img {
+    margin-bottom: 20px;
+}
+#blog {
+    margin-bottom: 20px;
+}
+header nav ul {
+    margin: 0;
+}
+header nav li{
+    list-style: none;
+}
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+/* MAIN */
+main{
+    background-color: white;
+    box-shadow: 0 4px 4px #444;
+    margin-bottom: 2em;
+    padding: 2em 1.5em;
+}
+.iscriviti {
+    background-color:#e3e3e3;
+    padding: 1rem;
+    margin-bottom: 1,5rem;
+}
+.iscriviti, h2{
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0,5rem;
+    letter-spacing:-0,03em ;
+
+}
+
+p, ul, ol, .finale{
+    margin-bottom: 1.2em;
+}
+h1 + p {
+    color: #a0a0a0;
+}
+ul,ol{
+    margin-left: 2rem;
+}
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+footer {
+    
+    background: linear-gradient(0deg, rgba(53,53,53,1) 0%, rgba(5,85,103,1) 68%);
+    box-shadow: 0 3px 3px #444;
+    color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2rem;
+}
+footer a {
+    color: fuchsia;
+}
