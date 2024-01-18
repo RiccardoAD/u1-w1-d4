@@ -1,11 +1,14 @@
 /* IMPOSTAZIONI GENERALI */
+html {
+    font-size: 62%;
+}
 body{
-    font-family:Poppins, sans-serif;
+    font-family:Poppins, 'Helvetica Neue' sans-serif;
     font-size: 1,4rem;
     line-height: 1.5;
     padding: 15px;
     background-image: url('../img/sfondo.png');
-    background-position: center;
+    background-position: center center;
 }
 *{box-sizing: border-box;}
 
@@ -47,12 +50,12 @@ main{
     margin-bottom: 2em;
     padding: 2em 1.5em;
 }
-.iscriviti {
+section ,#iscriviti {
     background-color:#e3e3e3;
     padding: 1rem;
-    margin-bottom: 1,5rem;
+    margin-bottom: 2rem;
 }
-.iscriviti, h2{
+#iscriviti, h2{
     text-align: center;
     color: #333;
     font-size: 2rem;
@@ -68,7 +71,6 @@ h1{
     letter-spacing:-0,03em ;
 
 }
-
 p, ul, ol, .finale{
     margin-bottom: 1.2em;
 }
@@ -77,6 +79,14 @@ h1 + p {
 }
 ul, ol{
     margin-left: 2rem;
+}
+ol {
+    list-style-type: counter-style;
+    list-style-position: inside;
+}
+ul {
+    list-style-type: disc;
+    list-style-position: insides;
 }
 a {
     color: #00A0C6;
@@ -101,6 +111,8 @@ iframe{
 /* TABELLE */
 table{
      margin-bottom: 2em;
+     margin-left: 2em;
+
 
 }
 caption{
@@ -111,8 +123,33 @@ thead tr {
     background-color: #3f6bca;
     color: white;
 }
+th, td {
+    padding: 12px 15px;
+    vertical-align: bottom;
+    text-align: center;
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+tbody tr:nth-of-type(even){
+    background-color: #f3f3f3 ;
+
+}
+
 
 /* FORM */
+input {
+    padding: 5px;
+    border: 0;
+   
+}
+button {
+    padding: 4px 7px;
+    background-color: #3f6bca;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
 
 /* ELEMENTI NELL' ASIDE */
 aside h2 {
@@ -130,10 +167,10 @@ aside div {
     margin-bottom: 1em;
     padding: 1em;
 }
-aside div p :last-child {
+  aside div p  {
     margin-bottom: 0;
     font-size: 1em;
-    text-align: right;
+  
     
 }
 
